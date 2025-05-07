@@ -17,7 +17,7 @@ int main(){
 	
 	int l = 0, r = n-1, mid;
 	while(l <= r){
-		mid = l + r / 2; 
+		mid = (l + r) / 2; 
 		if(arr[mid] == input){
 			cout << arr[mid] << endl;
 			return 0;
